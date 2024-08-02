@@ -93,13 +93,13 @@ const ProjectItems = [
 export default function Projects() {
   return (
     <main className="">
-      <div className="bg-bgpage flex justify-center items-center flex-col">
+      <div className="bg-bgpage flex justify-center items-center flex-col gap-5">
         <p className="text-primary text-xl">Meu trabalho</p>
-        <h2 className="text-white font-medium text-3xl">
+        <h2 className="text-white font-medium text-2xl">
           Veja os projetos em destaque
         </h2>
       </div>
-      <div className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 hover:cursor-pointer">
+      <div className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 pb-40 hover:cursor-pointer">
         {ProjectItems.map((item, index) => (
           <div key={index} className="m-4">
             <ProjectItem 

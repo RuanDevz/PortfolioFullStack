@@ -69,7 +69,8 @@ const config = {
         },
       },
       backgroundColor:{
-        bgpage: "#16181d"
+        bgpage: "#16181d",
+        segundary: "#0d0e11"
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

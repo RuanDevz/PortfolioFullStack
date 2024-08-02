@@ -28,8 +28,8 @@ export default function ProjectItem({
       <Image
         className={`transition-transform duration-300 ease-in-out group-hover:scale-110 ${classname}`}
         src={src}
-        width={500}
-        height={500}
+        width={550}
+        height={550}
         alt={name}
       />
 
