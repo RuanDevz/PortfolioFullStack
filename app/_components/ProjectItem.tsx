@@ -21,10 +21,8 @@ export default function ProjectItem({
 }: ProjectItemProps) {
   return (
     <div className="relative group overflow-hidden">
-      {/* Overlay escuro */}
       <div className="absolute inset-0 bg-black opacity-50 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-      {/* Imagem do projeto */}
       <Image
         className={`transition-transform duration-300 ease-in-out group-hover:scale-110 ${classname}`}
         src={src}
@@ -33,7 +31,6 @@ export default function ProjectItem({
         alt={name}
       />
 
-      {/* Nome do projeto */}
       <h1 className="absolute inset-0 flex justify-center items-center text-white text-xl font-semibold opacity-100 transition-opacity duration-300 ease-in-out group-hover:opacity-0">
         {name}
       </h1>
