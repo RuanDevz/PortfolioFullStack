@@ -25,11 +25,11 @@ export default function Helpyou() {
     <div className="bg-segundary">
       <div className="flex justify-center items-center flex-col gap-5">
         <p className="text-primary mt-32">Meus Serviços</p>
-        <h2 className="text-white font-medium text-2xl mb-20">
+        <h2 className="text-white font-medium text-xl mb-20 lg:text-2xl">
           Como posso ajudar o seu negócio
         </h2>
       </div>
-      <div className="flex justify-evenly items-start max-w-[1100px] mx-auto  pb-40">
+      <div className="flex   justify-center max-w-[300px] mx-auto  pb-40 flex-col gap-10 lg:gap-0 lg:flex-row lg:justify-evenly lg:items-center lg:max-w-[1100px]">
         {Skillshelpers.map((skills, index) => (
           <div
             className="border-[#16181D] border-2 rounded-2xl px-10 py-5"

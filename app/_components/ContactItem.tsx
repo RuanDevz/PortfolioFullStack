@@ -8,7 +8,7 @@ export default function ContactItem({ src, name, link }: ContactProps) {
     <Link target="_blank" href={link}>
       <div
         className="flex items-center justify-between gap-2
-    bg-[#292C34] p-5 my-1 w-[400px] rounded-sm hover:bg-[#3b3f4b] -translate-y-1 transition-all ease-in cursor-pointer "
+    bg-[#292C34] p-5 my-1 w-[340px] rounded-sm hover:bg-[#3b3f4b] -translate-y-1 transition-all ease-in cursor-pointer lg:w-[400px] "
       >
         <div className="flex items-center gap-3">
           <Image src={src} alt={name} />

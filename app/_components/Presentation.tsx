@@ -66,11 +66,11 @@ export default function Presentation() {
           />
         </div>
         <div className="flex flex-col justify-center items-center max-w-5xl">
-          <p className=" text-gray-500 text-2xl font-medium mt-14 text-center">
+          <p className="text-base text-gray-500 lg:text-gray-500 lg:text-2xl font-medium mt-14 text-center">
             Hello World! Meu nome é
             <span className="text-primary"> Ruan Batista</span> e sou
           </p>
-          <h1 className="text-white text-6xl whitespace-nowrap font-semibold mt-2">
+          <h1 className="text-3xl text-white lg:text-6xl whitespace-nowrap font-semibold mt-2">
             Desenvolvedor Fullstack
           </h1>
           <p className="text-gray-500 mt-5 text-center">
@@ -82,7 +82,7 @@ export default function Presentation() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-14 gap-8">
+      <div className="flex justify-center items-center mt-14 gap-8 flex-wrap">
         {Tecnology.map((tec, idx) => (
           <div key={idx}>
             <Tecnologies src={tec.src} name={tec.name} alt={tec.name} />
