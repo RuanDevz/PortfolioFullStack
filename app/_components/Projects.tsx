@@ -183,7 +183,8 @@ const Modal = ({
             onClick={handleOverlayClick}
             className="flex justify-end text-primary font-semibold"
           >
-            <p>Sair</p>
+            {/* Adicione o onClick aqui */}
+            <p onClick={onClose}>Sair</p>
           </div>
         ) : null}
         <Image
@@ -235,7 +236,7 @@ export default function Projects() {
     <main className="">
       <div
         data-aos="fade-right"
-        className="bg-bgpage flex justify-start items-start ml-10 flex-col gap-5"
+        className=" flex justify-start items-start ml-10 flex-col gap-5"
       >
         <h2 className="text-white font-medium text-3xl text-left border-b-4 border-primary mt-32 lg:mt-0">
           Destaque
