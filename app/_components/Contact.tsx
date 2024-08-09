@@ -43,7 +43,7 @@ export default function Contact() {
         <h2 className="text-white font-medium text-2xl">
           Gostou do meu trabalho?
         </h2>
-        <p className="text-gray-400 font-semibold pb-10 text-sm">
+        <p className="text-gray-400 font-semibold pb-10 text-sm text-center">
           Entre em contato ou acompanhe as minhas redes sociais!
         </p>
       </div>

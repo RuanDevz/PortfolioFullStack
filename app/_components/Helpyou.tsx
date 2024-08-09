@@ -24,7 +24,7 @@ export default function Helpyou() {
   return (
     <div className="bg-segundary">
       <div className="flex justify-center items-center flex-col gap-5">
-        <p className="text-primary mt-32">Meus Serviços</p>
+        <p className="text-primary mt-32 text-center">Meus Serviços</p>
         <h2 className="text-white font-medium text-xl mb-20 lg:text-2xl">
           Como posso ajudar o seu negócio
         </h2>
