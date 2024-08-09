@@ -54,7 +54,8 @@ const ProjectItems: Project[] = [
       "EcoMarket é uma plataforma de e-commerce intuitiva e moderna, projetada para oferecer uma experiência de compra fluida para os usuários. Com uma interface limpa e responsiva, os usuários podem navegar, selecionar produtos, adicionar ao carrinho e finalizar suas compras com facilidade. ",
     repository: "https://github.com/RuanDevz/EcoMarket",
     deploy: "https://eco-market-phi.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7223065335648686081/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7223065335648686081/",
   },
   {
     name: "Club Clothing",
@@ -64,7 +65,8 @@ const ProjectItems: Project[] = [
       "O projeto CLUB CLOTHING é um e-commerce desenvolvido com React, TypeScript, TailwindCSS e NextUI, focado em oferecer uma experiência de compra online intuitiva e responsiva. Este repositório contém o código fonte do front-end do projeto, destacando a integração de funcionalidades como login com Google, consumo de APIs e otimização de layout para diferentes dispositivos.",
     repository: "https://github.com/RuanDevz/CLUB-ECOMERCE",
     deploy: "https://club-ecomerce.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7211863528725463040/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7211863528725463040/",
   },
   {
     name: "TypeWeather",
@@ -74,7 +76,8 @@ const ProjectItems: Project[] = [
       "TypeWeather é um site que oferece previsões do tempo para todas as cidades do mundo. Ele fornece detalhes climáticos do dia atual e previsões para os próximos 5 dias, com uma interface intuitiva e animada.",
     repository: "https://github.com/RuanDevz/TypeWeather",
     deploy: "https://type-weather-two.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7214727408506064897/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7214727408506064897/",
   },
   {
     name: "BuenoBeauty",
@@ -84,7 +87,8 @@ const ProjectItems: Project[] = [
       "A landing page BuenoBeauty é um projeto desenvolvido para promover os serviços e produtos oferecidos pelo salão de beleza. Esta página foi construída utilizando tecnologias modernas como React para a estruturação do aplicativo, TailwindCSS para estilização e responsividade do site, React Swiper para a criação de um carrossel de imagens dinâmico e AOS para adicionar efeitos de animação ao rolar da página.",
     repository: "https://github.com/RuanDevz/BuenoBeauty",
     deploy: "https://bueno-beauty.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7194449320736178176/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7194449320736178176/",
   },
   {
     name: "RentCars",
@@ -94,7 +98,8 @@ const ProjectItems: Project[] = [
       "RentCars é uma plataforma onde os usuários podem alugar carros e listar seus próprios veículos para que outras pessoas possam alugá-los. O projeto é totalmente responsivo e conta com um sistema completo de CRUD",
     repository: "https://github.com/RuanDevz/RentCars",
     deploy: "https://rent-cars-lyfn.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7204138880457986048/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7204138880457986048/",
   },
   {
     name: "Find A Friend",
@@ -104,7 +109,8 @@ const ProjectItems: Project[] = [
       "Esse projeto tem como objetivo ajudar instituições de caridade a encontrar lares amorosos para seus animais de estimação. Por meio da plataforma FindAFriend, as instituições podem listar animais disponíveis para adoção, e pessoas interessadas em adotar podem visualizar detalhes sobre cada animal e se candidatar para adoção",
     repository: "https://github.com/RuanDevz/FindAFriend",
     deploy: "https://ruandevz.github.io/FindAFriend/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7054797056309178368/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7054797056309178368/",
   },
   {
     name: "Mercado Livre",
@@ -114,7 +120,8 @@ const ProjectItems: Project[] = [
       "Mercado Livre, feito com foco na implementação e funcionamento do carrinho de um ecommerce e também consumindo API do mercado livre.",
     repository: "https://github.com/RuanDevz/MercadoLivre",
     deploy: "https://mercado-livre-rho.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7207832621886746624/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7207832621886746624/",
   },
   {
     name: "Barbearia Italo",
@@ -132,9 +139,11 @@ const ProjectItems: Project[] = [
     tech: getTechnologies(["ReactJs", "Javascript", "CSS"]),
     description:
       "Este projeto FREELANCER foi realizado para a Prefeitura da cidade de Patos, com o objetivo de reunir votos de mais de 5 mil pessoas para avaliar a experiência do São João de 2023. O objetivo era entender as preferências e expectativas do público para o São João de 2024, incluindo as atrações desejadas para o evento.",
-    repository: "https://github.com/RuanDevz/Saojoaodepatos2024/tree/main/saojoao2024#",
+    repository:
+      "https://github.com/RuanDevz/Saojoaodepatos2024/tree/main/saojoao2024#",
     deploy: "https://saojoao-patos-certo.vercel.app/",
-    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7173706402287214593/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7173706402287214593/",
   },
 ];
 
@@ -162,12 +171,18 @@ const Modal = ({
       onClick={handleOverlayClick}
       className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50"
     >
-      <div className="bg-[#181820] p-5 rounded-lg max-w-[380px] lg:max-w-4xl">
+      <div
+        data-aos="zoom-in"
+        className="bg-[#181820] p-5 rounded-lg max-w-[380px] lg:max-w-4xl"
+      >
         <button className="absolute top-2 right-2 text-2xl" onClick={onClose}>
           ×
         </button>
         {isMobile ? (
-          <div onClick={handleOverlayClick} className="flex justify-end text-primary font-semibold">
+          <div
+            onClick={handleOverlayClick}
+            className="flex justify-end text-primary font-semibold"
+          >
             <p>Sair</p>
           </div>
         ) : null}
@@ -218,12 +233,18 @@ export default function Projects() {
 
   return (
     <main className="">
-      <div className="bg-bgpage flex justify-start items-start ml-10 flex-col gap-5">
+      <div
+        data-aos="fade-right"
+        className="bg-bgpage flex justify-start items-start ml-10 flex-col gap-5"
+      >
         <h2 className="text-white font-medium text-3xl text-left border-b-4 border-primary mt-32 lg:mt-0">
           Destaque
         </h2>
       </div>
-      <div className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 pb-40 cursor-pointer">
+      <div
+        data-aos="fade-right"
+        className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 pb-40 cursor-pointer"
+      >
         {featuredProjects.map((item, index) => (
           <div
             key={index}
@@ -239,12 +260,18 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <div className="bg-bgpage flex justify-start items-start ml-10 flex-col gap-5">
+      <div
+        data-aos="fade-right"
+        className="bg-bgpage flex justify-start items-start ml-10 flex-col gap-5"
+      >
         <h2 className="text-white font-medium text-3xl text-left border-b-4 border-primary">
           Mais Projetos
         </h2>
       </div>
-      <div className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 pb-40 cursor-pointer">
+      <div
+        data-aos="fade-right"
+        className="flex flex-wrap justify-around items-center gap-10 max-w-full mx-auto mt-10 pb-40 cursor-pointer"
+      >
         {moreProjects.map((item, index) => (
           <div
             key={index}

@@ -47,7 +47,12 @@ export default function Contact() {
           Entre em contato ou acompanhe as minhas redes sociais!
         </p>
       </div>
-      <div className="flex justify-center items-center flex-col gap-4 mt-4 last:mb-40">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        className="flex justify-center items-center flex-col gap-4 mt-4 last:mb-40"
+      >
         {Contactlist.map((list, index) => (
           <ContactItem
             key={index}

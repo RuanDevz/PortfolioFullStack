@@ -29,17 +29,28 @@ export default function Helpyou() {
           Como posso ajudar o seu negócio
         </h2>
       </div>
-      <div className="flex   justify-center max-w-[300px] mx-auto  pb-40 flex-col gap-10 lg:gap-0 lg:flex-row lg:justify-evenly lg:items-center lg:max-w-[1100px]">
+      <div
+        data-aos="fade-down"
+        className="flex   justify-center max-w-[300px] mx-auto  pb-40 flex-col gap-10 lg:gap-0 lg:flex-row lg:justify-evenly lg:items-center lg:max-w-[1100px]"
+      >
         {Skillshelpers.map((skills, index) => (
           <div
             className="border-[#16181D] border-2 rounded-2xl px-10 py-5"
             key={index}
           >
-            <Image className="mb-5 mr-10" src={skills.img} width={40} height={40} alt={skills.Title} />
+            <Image
+              className="mb-5 mr-10"
+              src={skills.img}
+              width={40}
+              height={40}
+              alt={skills.Title}
+            />
             <h1 className="text-white text-base font-medium my-1 mr-10">
               {skills.Title}
             </h1>
-            <p className="text-sm text-gray-500 mr-10  mt-2">{skills.Description}</p>
+            <p className="text-sm text-gray-500 mr-10  mt-2">
+              {skills.Description}
+            </p>
           </div>
         ))}
       </div>

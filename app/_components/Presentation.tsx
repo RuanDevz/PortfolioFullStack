@@ -51,7 +51,7 @@ export default function Presentation() {
       style={{ backgroundImage: `url(${BackgroundIntro.src})` }}
     >
       <div className="flex justify-center flex-col items-center pt-32">
-        <div className="relative">
+        <div data-aos="fade-down" className="relative">
           <Image
             className="rounded-full border-4 border-primary"
             width={96}
@@ -65,7 +65,10 @@ export default function Presentation() {
             alt="DevSimbol"
           />
         </div>
-        <div className="flex flex-col justify-center items-center max-w-5xl">
+        <div
+          data-aos="fade-right"
+          className="flex flex-col justify-center items-center max-w-5xl"
+        >
           <p className="text-base text-gray-500 lg:text-gray-500 lg:text-2xl font-medium mt-14 text-center">
             Hello World! Meu nome é
             <span className="text-primary"> Ruan Batista</span> e sou
@@ -82,7 +85,10 @@ export default function Presentation() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-14 gap-8 flex-wrap">
+      <div
+        data-aos="flip-up" data-aos-delay="500"
+        className="flex justify-center items-center mt-14 gap-8 flex-wrap"
+      >
         {Tecnology.map((tec, idx) => (
           <div key={idx}>
             <Tecnologies src={tec.src} name={tec.name} alt={tec.name} />
