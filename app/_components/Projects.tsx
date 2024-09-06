@@ -10,6 +10,7 @@ import MercadoLivre from "../../assets/MercadoLivre.png";
 import BuenoBeauty from "../../assets/BuenoBeauty.png";
 import BarbeariaItalo from "../../assets/BarbeariaItalo.png";
 import SaoJoao2023 from "../../assets/SaoJoao2023.png";
+import FODU from '../../assets/FODU.png'
 import ProjectItem from "./ProjectItem";
 import NextJs from "../../public/nextjs.svg";
 import React from "../../public/react.svg";
@@ -78,6 +79,17 @@ const ProjectItems: Project[] = [
     deploy: "https://type-weather-two.vercel.app/",
     linkedin:
       "https://www.linkedin.com/feed/update/urn:li:activity:7214727408506064897/",
+  },
+  {
+    name: "FODU",
+    src: FODU,
+    tech: getTechnologies(["NextJs", "Typescript", "TailwindCSS"]),
+    description:
+      "Dessa vez é o FODU, uma landing page pra delivery e iFood.",
+    repository: "https://github.com/RuanDevz/Fudo",
+    deploy: "https://fudo-mhol.vercel.app/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7237683402215182336/",
   },
   {
     name: "BuenoBeauty",

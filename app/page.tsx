@@ -13,7 +13,6 @@ export default function Home() {
       duration: 1200,
       once: true,
       delay: 200,
-      offset: 70
     });
   },[]);
 
