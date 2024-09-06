@@ -1,5 +1,5 @@
 'use client'
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Contact from "./_components/Contact";
 import Helpyou from "./_components/Helpyou";
 import Presentation from "./_components/Presentation";
@@ -15,6 +15,7 @@ export default function Home() {
       delay: 200,
     });
   },[]);
+
 
   return (
     <main>

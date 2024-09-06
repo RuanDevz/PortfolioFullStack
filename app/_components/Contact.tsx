@@ -38,7 +38,7 @@ export default function Contact() {
       }}
       className="relative"
     >
-      <div className="flex justify-center items-center flex-col gap-3 mt-20 relative z-10">
+      <div className="flex justify-center items-center flex-col gap-3 mt-32 relative z-10">
         <p className="text-primary">Contato</p>
         <h2 className="text-white font-medium text-2xl">
           Gostou do meu trabalho?
@@ -51,7 +51,7 @@ export default function Contact() {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        className="flex justify-center items-center flex-col gap-4 mt-4 last:mb-40"
+        className="flex justify-center items-center flex-col gap-4 mt-4 last:mb-64"
       >
         {Contactlist.map((list, index) => (
           <ContactItem
