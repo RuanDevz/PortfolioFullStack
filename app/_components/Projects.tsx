@@ -24,6 +24,7 @@ import HTML from "../../public/file-type-html.svg";
 import CSS from "../../public/file-type-css.svg";
 import Link from "next/link";
 import Image from "next/image";
+import SmartHub from '../../assets/SmartHub.png'
 import { Project, Technology } from "@/types/ContactItem";
 import { Button } from "@/components/ui/button";
 
@@ -47,6 +48,28 @@ const getTechnologies = (names: string[]): Technology[] =>
 
 const ProjectItems: Project[] = [
   {
+    name: "SmartHub",
+    src: SmartHub,
+    tech: getTechnologies(["ReactJs", "Typescript", "TailwindCSS", "NodeJs"]),
+    description:
+      "O projeto SmartHub é um site de filmes e séries desenvolvido com React, TypeScript, TailwindCSS, NodeJs e Postgres focado em fazer com que você fique atualizado sobre os novos filmes e séries que serão lançados",
+    repository: "https://github.com/RuanDevz/StreamHub",
+    deploy: "https://stream-hub-blue.vercel.app/",
+    linkedin:
+      "https://www.linkedin.com/in/ruan-batista-26790b1b8/",
+  },
+  {
+    name: "FODU",
+    src: FODU,
+    tech: getTechnologies(["NextJs", "Typescript", "TailwindCSS"]),
+    description:
+      "Dessa vez é o FODU, uma landing page pra delivery e iFood.",
+    repository: "https://github.com/RuanDevz/Fudo",
+    deploy: "https://fudo-mhol.vercel.app/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7237683402215182336/",
+  },
+  {
     name: "EcoMarket",
     src: EcoMarket,
     tech: getTechnologies(["NextJs", "Typescript", "NodeJs", "TailwindCSS"]),
@@ -69,6 +92,7 @@ const ProjectItems: Project[] = [
     linkedin:
       "https://www.linkedin.com/feed/update/urn:li:activity:7211863528725463040/",
   },
+
   {
     name: "TypeWeather",
     src: TypeWeather,
@@ -79,17 +103,6 @@ const ProjectItems: Project[] = [
     deploy: "https://type-weather-two.vercel.app/",
     linkedin:
       "https://www.linkedin.com/feed/update/urn:li:activity:7214727408506064897/",
-  },
-  {
-    name: "FODU",
-    src: FODU,
-    tech: getTechnologies(["NextJs", "Typescript", "TailwindCSS"]),
-    description:
-      "Dessa vez é o FODU, uma landing page pra delivery e iFood.",
-    repository: "https://github.com/RuanDevz/Fudo",
-    deploy: "https://fudo-mhol.vercel.app/",
-    linkedin:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7237683402215182336/",
   },
   {
     name: "BuenoBeauty",
