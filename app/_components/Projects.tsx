@@ -9,6 +9,7 @@ import FindAAfriend from "../../assets/FindAFriend.png";
 import MercadoLivre from "../../assets/MercadoLivre.png";
 import BuenoBeauty from "../../assets/BuenoBeauty.png";
 import BarbeariaItalo from "../../assets/BarbeariaItalo.png";
+import Cuidar from '../../assets/Cuidar.png'
 import SaoJoao2023 from "../../assets/SaoJoao2023.png";
 import FODU from '../../assets/FODU.png'
 import ProjectItem from "./ProjectItem";
@@ -47,6 +48,17 @@ const getTechnologies = (names: string[]): Technology[] =>
     .filter((tech): tech is Technology => tech !== undefined);
 
 const ProjectItems: Project[] = [
+  {
+    name: "CUIDAR - Cliníca Veterinária",
+    src: Cuidar,
+    tech: getTechnologies(["ReactJs", "Typescript", "TailwindCSS"]),
+    description:
+      "Construi uma landing page para a CUIDAR - Clínica Veterinária, que é localizada aqui no meu bairro, nela utilizei a tecnologia React, Typescript, Tailwind e AOS",
+    repository: "https://github.com/RuanDevz/CUIDAR---Clinica-Veterin-ria",
+    deploy: "https://cuidar-clinica.vercel.app/",
+    linkedin:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7297057834804875264/",
+  },
   {
     name: "SmartHub",
     src: SmartHub,
